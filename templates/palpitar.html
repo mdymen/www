@@ -1,0 +1,14 @@
+<ion-view title="Palpitar" id="page2" ng-controller="palpitarCtrl">
+  <ion-content padding="true" class="has-header">
+    <div id="palpitar-container1">
+      <ion-list id="palpitar-list7" ng-repeat="palpite in palpites">
+        <ion-item id="palpitar-list-item17">
+            <span style="font-size:10px">
+                <b>{{palpite.mt_date}}</b> - {{palpite.ch_nome}}<br />
+            </span>
+          {{palpite.t1nome}} vs {{palpite.t2nome}}
+         </ion-item>
+      </ion-list>
+    </div>
+  </ion-content>
+</ion-view>
